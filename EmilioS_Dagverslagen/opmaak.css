@@ -1,0 +1,51 @@
+body
+{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color:darkblue;
+}
+nav {
+    color: cyan;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2x lightblue;
+}
+
+nav ul {
+    padding: 5px;
+}
+
+li.navigatie {
+    display: inline;
+    margin-right: 10 px;
+    background-color: white
+}
+
+nav a {
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:link {
+    color: rgb(255, 72, 0);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(81, 125, 220);
+    text-decoration: underline;
+    border: solid 2x lightblue;
+    border-radius: 10px;
+}
+
+a:active {
+    color: red;
+}
+img 
+{
+    display: block;
+    margin: 0px auto 0px auto;
+}
