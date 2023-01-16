@@ -3,6 +3,9 @@ body
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 color:darkblue;
 }
+p{
+    color:rgb(12, 108, 210);
+}
 nav {
     color: cyan;
     padding: 10px;
@@ -44,7 +47,7 @@ a:hover {
 a:active {
     color: red;
 }
-img 
+#logo
 {
     display: block;
     margin: 0px auto 0px auto;
