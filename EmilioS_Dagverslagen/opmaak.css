@@ -1,42 +1,75 @@
 body
 {
 font-family:Verdana, Geneva, Tahoma, sans-serif;
-color:darkblue;
+color:#073362;
+background-color: aliceblue;
 }
-p{
-    color:rgb(12, 108, 210);
+article 
+{
+    width: 80%;
+    height: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px 20px 20px 0px;
 }
-nav {
-    color: cyan;
+
+h2
+{
+    color:#548cbc;
+}
+section 
+{
+    padding: 10px 10px 10px 10px;
+    margin-top: 20 px;
+    margin-bottom: 20px;
+    margin-right:40px;
+    border: solid 10px rgb(13, 178, 239);
+    border-radius: 20px;
+    background-color: #5780a8;
+}
+p
+{
+    color:white;
+}
+nav 
+{
+    color: #7396b9;
     padding: 10px;
     border-radius: 10px;
     border: solid 2x lightblue;
 }
 
-nav ul {
+nav ul 
+{
     padding: 5px;
 }
 
-li.navigatie {
+li.navigatie 
+{
     display: inline;
     margin-right: 10 px;
     background-color: white
 }
 
-nav a {
+nav a 
+{
     border: solid 2px black;
     border-radius: 10px;
     padding: 10px;
 }
 
-a:link {
-    color: rgb(255, 72, 0);
+a:link 
+{
+    color:  #a9c4e2;
     text-decoration: none;
     padding: 10px;
     text-align: center;
 }
 
-a:hover {
+a:hover 
+{
     color: white;
     background-color: rgb(81, 125, 220);
     text-decoration: underline;
@@ -44,11 +77,22 @@ a:hover {
     border-radius: 10px;
 }
 
-a:active {
-    color: red;
+a:active 
+{
+    color: #073362;
+}
+
+li
+{
+    color:white;
+}
+table{
+    color:#c4ccdd;
 }
 #logo
 {
     display: block;
     margin: 0px auto 0px auto;
+    padding: 10px;
 }
+
