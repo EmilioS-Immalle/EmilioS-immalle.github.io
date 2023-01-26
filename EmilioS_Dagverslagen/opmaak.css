@@ -5,7 +5,7 @@ background-color: aliceblue;
 }
 article 
 {
-    width: 80%;
+    width: 70%;
     height: 75%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -14,9 +14,21 @@ article
     margin: 20px 20px 20px 0px;
 }
 
+aside {
+    width: 55%;
+    height:100%;
+    float: right;
+    color:black;
+    background-color: orange;
+    padding: 0px 10px 10px 10px;
+    margin-top: 20px;
+    border: solid 5px Black;
+    border-radius: 10px;
+}
+
 h2
 {
-    color:#548cbc;
+    color:#0101f5;
 }
 section 
 {
@@ -81,10 +93,6 @@ a:active
     color: #073362;
 }
 
-li
-{
-    color:white;
-}
 table{
     color:#c4ccdd;
 }
@@ -93,5 +101,43 @@ table{
     display: block;
     margin: 0px auto 0px auto;
     padding: 10px;
+}
+li.contact
+{
+    display: inline;
+    margin-right: 10 px;
+    background-color: orange ;
+}
+li.contact :hover
+{
+    background-color: orange ;
+}
+li.contact:link 
+{
+    color:  white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+a.PDF
+{
+    
+    display: inline;
+    margin-right: 10 px;
+    background-color: magenta ;
+    
+}
+a.PDF:link
+{
+    
+    color:  gold;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    
+}
+a.PDF:hover
+{
+    background-color: gold ;
 }
 
